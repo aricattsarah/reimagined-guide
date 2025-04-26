@@ -1,0 +1,8 @@
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+positive_numbers = []
+
+for i in numbers:
+    if i > 0:
+        positive_numbers.append(i)
+
+print(positive_numbers)
